@@ -7,7 +7,7 @@
 ## 1. 列车的 LCD 没有显示 / 没有及时更新。
 
 如果遇到“NTE 资源加载过程中发生错误”屏幕：
-- 使用[热修复资源包](https://jeffreyg1228.lanzv.com/iOCZu1mrefje)替换原资源包，看能否解决问题；
+- 使用[热修复资源包](https://jeffreyg1228.lanzv.com/iGpCH1mtw8cf)替换原资源包，看能否解决问题；
 - 如果不能，请向 [jeffreyg1228@126.com](mailto:jeffreyg1228@126.com) 发送邮件反馈。请至少包含错误截图信息。
 
 请先检查您是否正确配置了 LCD。示例列车 16A02 已经正确配置。
