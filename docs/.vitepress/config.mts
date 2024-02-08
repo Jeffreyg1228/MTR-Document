@@ -57,6 +57,7 @@ export default defineConfig({
           '/lcd/': [
             {
               text: '',
+              collapsed: false,
               items: [
                 { text: '首页', link: '/lcd/' }
               ]
