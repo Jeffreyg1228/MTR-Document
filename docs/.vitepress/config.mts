@@ -2,20 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [
-    [
-      'script',
-      {},
-      `var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?b7d7f81a52f57c35b4020f486cca3501";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();`
-    ]
-  ],
-
   title: "Jeffreyg1228 的 MTR 文档站",
   description: "一些 MTR 模组相关的文档，旨在帮助 MTR 圈更好发展。",
   cleanUrls: true,
