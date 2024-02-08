@@ -50,6 +50,7 @@ export default defineConfig({
             },
             {
               text: '玩家相关',
+              collapsed: false,
               items: [
                 { text: '基本功能', link: '/lcd/player-guide/basic-features' },
                 { text: '性能调优', link: '/lcd/player-guide/performance-tuning' },
@@ -58,6 +59,7 @@ export default defineConfig({
             },
             {
               text: '资源包作者相关（即将推出）',
+              collapsed: false,
               items: [
                 { text: '', link: '/lcd/' }
               ]
