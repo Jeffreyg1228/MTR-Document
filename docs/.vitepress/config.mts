@@ -2,6 +2,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'TAG_ID');`
+    ]
+  ],
+
   title: "Jeffreyg1228 的 MTR 文档站",
   description: "一些 MTR 模组相关的文档，旨在帮助 MTR 圈更好发展。",
   cleanUrls: true,
