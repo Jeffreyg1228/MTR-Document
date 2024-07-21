@@ -73,6 +73,9 @@
         这一步操作的目的是使多个列车模型读取它们各自的槽位。`script_texts` 数组里的内容为 JavaScript 源代码，会在 `script_files` 之前运行，详见 [NTE 文档](https://www.zbx1425.cn/nautilus/mtr-nte/#/js-train?id=%e6%b7%bb%e5%8a%a0%e8%bd%a6%e5%9e%8b)。这里是读取模型所在目录的槽位文件 `slots.json`，并以此初始化 `DisplayHelper`。
         :::
     - **对于每个需要安装 LCD 的列车**，增加 `script_files` 字段：原样复制上方第 10 行内容即可。
+        ::: warning
+        如果您的资源包对 LCD 内部的 JS 代码作了修改，为避免多资源包叠加导致的错误，请把第 10 行的 `shlcd` 改为其它名称，别忘了更改 LCD 文件夹的名称。
+        :::
 4. **对于上述列车使用的每个 `.bbmodel` 文件**，在其所在的文件夹下创建一个空文件，名为 `slots.json`，第 17 步将用到。例如，`model` 字段的值为 `mtr:foo/bar.bbmodel`，那么在资源包的 `assets\mtr\foo` 下创建该文件。
     ::: warning
     本教程假设同一文件夹下只存在一个 `.bbmodel` 文件。
