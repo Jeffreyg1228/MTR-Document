@@ -36,10 +36,10 @@ export default defineConfig({
           'lcd/creator-guide/troubleshooting.md': { sort: 3 },
 
           'lcd/creator-guide': { sort: 2, title: "资源包作者相关" },
-          'lcd/creator-guide/introduction.md': { sort: 0 },
-          'lcd/creator-guide/adapt-to-blockbench-train.md': { sort: 1 },
-          'lcd/creator-guide/adapt-to-mtr-train.md': { sort: 2 },
-          'lcd/creator-guide/adapt-to-obj-train.md': { sort: 3 },
+          'lcd/creator-guide/adapt-to-blockbench-train.md': { sort: 0 },
+          'lcd/creator-guide/adapt-to-mtr-train.md': { sort: 1 },
+          'lcd/creator-guide/adapt-to-obj-train.md': { sort: 2 },
+          'lcd/creator-guide/feedback.md': { sort: 3 },
           
           'tips': { sort: 1, title: "MTR 实用技巧" },
         },
