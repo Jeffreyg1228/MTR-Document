@@ -4,6 +4,7 @@ import Layout from "../../components/Layout.vue";
 import "viewerjs/dist/viewer.css";
 import VueViewer from "v-viewer";
 import Image from "./Image.vue";
+import "./style.css";
 
 export default {
   ...DefaultTheme,
