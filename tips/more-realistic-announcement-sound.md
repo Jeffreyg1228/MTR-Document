@@ -25,7 +25,7 @@ MTR 模组的“报站声音不真实”历来是玩家反映的问题之一。�
 
 ## 步骤一：下载 `NaturalVoiceSAPIAdapter` 安装程序
 
-1. 从[官方 Github 仓库](https://github.com/gexgd0419/NaturalVoiceSAPIAdapter/releases)下载语音库的安装程序（`NaturalVoiceSAPIAdapter_x86_x64.zip`）；
+1. 从[项目 Github 仓库](https://github.com/gexgd0419/NaturalVoiceSAPIAdapter/releases)下载最新 Release（`NaturalVoiceSAPIAdapter_x86_x64.zip`）；
 2. 解压程序文件夹至一个合适的位置；
     ::: warning
     语音库安装后，**此文件夹不得被移动、重命名或删除**，因为系统需要调用这里面的 DLL 文件。因此请确保解压到一个不会被自己清理的地方（例如 `C:\Program Files`）。
@@ -59,13 +59,16 @@ MTR 模组的“报站声音不真实”历来是玩家反映的问题之一。�
 
 ## 步骤四：设置 SAPI 的默认语音
 
-6. 在键盘上同时按下 Windows 徽标 + R 键，打开“运行”对话框；
+6. 在键盘上按下 Windows 徽标键 + <kbd>R</kbd> 组合键，打开“运行”对话框；
 7. 在“打开”文本框中，输入 `C:\Windows\System32\Speech\SpeechUX\sapi.cpl`（64 位）或 `C:\Windows\SysWOW64\Speech\SpeechUX\sapi.cpl`（32 位，注意和路径中的相反），单击“确定”；
 8. 弹出“语音属性”对话框。点击“语音选择”下拉框，选择默认语音，如下图：
     ![image.png](https://s2.loli.net/2024/07/06/XCWoc63QSEMhanj.png)
     其中标有“Natural”字样的都是新安装的自然语音，有“Online”字样的都是 Microsoft Edge 在线语音。
 9. 选择一个语音后，系统会自动播放预听语音。单击对话框底部的“应用”或“确定”按钮完成默认语音的设置。
 10. 进入 Minecraft 享受全新的报站效果！
+    ::: info
+    由于报站语音是在客户端本地合成的，故在多人游戏的服务端配置语音没有用处，必须为每个客户端都进行配置。
+    :::
 
 ## 局限性
 
