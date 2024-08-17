@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@giscus/vue": "^3.0.0",
+    "markdown-it-footnote": "^4.0.0",
     "v-viewer": "^3.0.13",
     "viewerjs": "^1.11.6"
   }

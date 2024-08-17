@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import AutoNav from "vite-plugin-vitepress-auto-nav";
+import mdFootnote from "markdown-it-footnote";
 
 export default defineConfig({
   title: "Jeffreyg1228 的 MTR 文档站",
@@ -48,6 +49,9 @@ export default defineConfig({
     ],
   },
   markdown: {
+    config: (md) => {
+      md.use(mdFootnote)
+    },
     container: {
       tipLabel: '提示',
       warningLabel: '警告',
