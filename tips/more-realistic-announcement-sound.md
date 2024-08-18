@@ -40,8 +40,8 @@ NaturalVoiceSAPIAdapter 库支持三种语音合成 API 类型：
 
 ## 安装 NaturalVoiceSAPIAdapter
 
-- 如果需要，请先[安装讲述人自然语音][9]；
-- 随后，[安装语音库][10]。至少安装 32 位语音库。
+- 如果需要，请先[安装讲述人自然语音][8]；
+- 随后，[安装语音库][9]。至少安装 32 位语音库。
 
 ::: warning
 解压程序并安装语音库后，**其文件夹不得被移动、重命名或删除**，因为系统需要调用这里面的 DLL 文件。因此请确保解压到一个不会被自己清理的地方（例如 `C:\Program Files`）。
@@ -86,5 +86,4 @@ Minecraft 调用 SAPI 的默认语音进行合成，因此必须设置默认语�
 [6]: https://gitee.com/gexgd0419/NaturalVoiceSAPIAdapter
 [7]: https://gitee.com/gexgd0419/NaturalVoiceSAPIAdapter#%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82
 [8]: https://gitee.com/gexgd0419/NaturalVoiceSAPIAdapter/wikis/%E8%AE%B2%E8%BF%B0%E4%BA%BA%E8%87%AA%E7%84%B6%E8%AF%AD%E9%9F%B3%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5?
-[9]: https://gitee.com/gexgd0419/NaturalVoiceSAPIAdapter#%E6%88%91%E7%94%A8%E7%9A%84-windows-xpvista7810-%E7%B3%BB%E7%BB%9F%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8-windows-11-%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%B2%E8%BF%B0%E4%BA%BA%E8%87%AA%E7%84%B6%E8%AF%AD%E9%9F%B3%E5%90%97
-[10]: https://gitee.com/gexgd0419/NaturalVoiceSAPIAdapter#%E5%AE%89%E8%A3%85
+[9]: https://gitee.com/gexgd0419/NaturalVoiceSAPIAdapter#%E5%AE%89%E8%A3%85
